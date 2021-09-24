@@ -1,0 +1,26 @@
+{
+  "name": "airbnb-clone-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktscates/airbnb-clone-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktscates/airbnb-clone-tailwind/issues"
+  },
+  "homepage": "https://github.com/ktscates/airbnb-clone-tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.10"
+  }
+}
