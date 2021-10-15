@@ -3,10 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="https://livejs.com/live.js"></script>
-    <title>AirBnb Clone</title>
+    <link href="/css/tailwind.css" rel="stylesheet" />
+    <title>AirBnb  Clone</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="bg-green-500 w-full h-screen px-5 py-5" >
+        <div class="flex justify-between">
+            <div>
+                <img class="w-20" src="img/logo.png" alt="logo" />
+            </div>
+
+            <div>
+                <div class="text-white grid grid-cols-3">
+                    <p>Places to stay</p>
+                    <p>Expriences</p>
+                    <p>Online Experiences</p>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="text-white">
+                    <p>Become a host</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white mx-48 mt-10 flex justify-between rounded-full px-6 py-2">
+            <div>
+                <h3 class="font-bold">Location <br/><span class="font-thin text-gray-400">Where are you going?</span></h3>
+            </div>
+            <div>
+                <h3 class="font-bold">Check in <br/><span class="font-thin text-gray-400">Add dates</span></h3>
+            </div>
+            <div>
+                <h3 class="font-bold">Check out <br/><span class="font-thin text-gray-400">Add dates</span></h3>
+            </div>
+            <div>
+                <h3 class="font-bold">Guests <br/><span class="font-thin text-gray-400">Add guests</span></h3>
+            </div>
+            <div class="bg-pink-600 w-12 p-3 rounded-full">
+                <img class="w-8" src="./img/search.svg" alt="search"/>
+            </div>
+        </div>
+        
+        <div class="text-center mt-48">
+            <p>Not sure where to go? Perfect.</p>
+            <div class="mt-8" >
+                <a class="rounded-full bg-white px-10 py-4" href="#">I'm Flexible</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="mt-10 mb-14">
+        <h1 class="font-semibold text-3xl mb-10 mx-16 text-gray-700">Live anywhere</h1>
+
+        <div class="flex justify-between space-x-3 mx-16">
+            <div class="space-y-2">
+                <img class="rounded-lg" src="./img/house.jpeg" alt="house" />
+                <p class="font-semibold text-gray-700">Outdoor getaways</p>
+            </div>
+
+            <div class="space-y-2">
+                <img class="rounded-lg" src="./img/house-on-the-boat.jpeg" alt="house-on-the-boat" />
+                <p class="font-semibold text-gray-700">Unique stays</p>
+            </div>
+
+            <div class="space-y-2">
+                <img class="rounded-lg" src="./img/home.jpeg" alt="home" />
+                <p class="font-semibold text-gray-700">Entire homes</p>
+            </div>
+
+            <div class="space-y-2">
+                <img class="rounded-lg" src="./img/dog.jpeg" alt="dog" />
+                <p class="font-semibold text-gray-700">Pets allowed</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mx-16 relative">
+        <img class="rounded-lg w-full" src="./img/person.jpeg" alt="person" />
+        <div class="absolute top-36 left-16 text-white">
+            <h1 class="text-4xl text-gray-300 mb-3">Try hosting</h1>
+            <p class="text-gray-300">Earn extra income and unlock new <br /><span>opportunitiesby sharing your space.</span></p>
+            <div class="mt-16">
+                <a class="bg-gray-100 rounded-lg px-10 py-5 text-gray-700 font-semibold">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-16 mx-16">
+        <h1 class="mb-5 font-semibold text-3xl text-gray-700">Discover things to do</h1>
+        <div class="flex justify-between">
+            <div class="space-y-2">
+                <img class="rounded-lg" src="./img/sheep.jpeg" alt="sheep" />
+                <p class="font-semibold text-gray-700">Experiences<br/><span class="font-thin">Find unforgettable activities near you</span></p>
+            </div>
+            <div class="space-y-2">
+                <img class="rounded-lg" src="./img/tablet.jpeg" alt="tablet" />
+                <p class="font-semibold text-gray-700">Online Experiences<br /><span class="font-thin">Live, interactive activities led by hosts</span></p>
+            </div>
+            <div class="space-y-2">
+                <img class="rounded-lg" src="./img/woman.jpeg" alt="woman" />
+                <p class="font-semibold text-gray-700">Featured collection: Wanderlust<br /><span class="font-thin">Travel from home with Online Experiences</span></p>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
